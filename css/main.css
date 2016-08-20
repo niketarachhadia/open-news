@@ -1,0 +1,142 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  margin:0;
+  font-family: arial,sans-serif;
+}
+.logo{
+  top: 0px;
+  bottom:0px;
+  position: absolute;
+  left: 15px;
+ }
+header{
+  position: relative;
+  background-color: #FF7F50;
+  height: 60px;
+  top: 0;
+  right:0;
+  left:0;
+  border-bottom: 1px solid  #FF7F50;
+}
+
+h1{
+  margin-top:0px;
+}
+
+h5{
+ /* border: 1px solid black;*/
+  margin-bottom: 2px;
+  margin-top:2px;
+}
+.search{
+  margin-top : 13px;
+  position : absolute;
+  right: 20px; 
+}
+.search input{
+  width: 200px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height:30px;
+  height: 30px;
+  background-color: white;
+  border: 1 px solid gray;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+}
+.search button{
+  height: 30px;
+  font-size: 17px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1 px solid gray;
+}
+.navigation{
+  position: absolute; 
+  border: 1 px solid black;
+  right :300px;
+  bottom:20px;
+}
+.navigation a{
+  font-size: 14px;
+  color : white;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  text-align: right;
+}
+.description{
+  margin-top: 0px;
+  font-size: 14px;
+  color:white;
+}
+.name{
+  font-size : 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color:  #FF7F50;  
+}
+#list{
+  list-style-type: none;
+  padding-left: 2px;
+  margin-top: 2px;
+  padding-right: 10px;
+}
+li{
+  margin-bottom: 0px;
+}
+.left {
+  float: left;
+  margin-right: 3px;
+}
+.hidden {
+  display: none;
+}
+#video{
+  display : block;
+  width:100%;
+  height: 100%;
+  border-color: white;
+}
+main {
+  padding-top: 20px;  
+}
+main .row {
+  margin-bottom: 20px;
+}
+.box {
+  text-align: justify;
+  text-justify: auto; 
+}
+
+.trending, .feed-list{
+  height: 550px;
+}
+.feed-list{
+  overflow-y: auto;
+  
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: white;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #FF7F50; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #FF7F50; 
+}
