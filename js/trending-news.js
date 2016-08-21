@@ -13,7 +13,7 @@ var currentDate = function(){
 
 var T_API_URL = 'https://www.googleapis.com/youtube/v3/search'
 var T_API_KEY = 'AIzaSyD4-c80_VrwBAZj3aGMOpgHzajxgQV9Vv4';
-var HEADLINES = 'Top U.S. & World Headlines';
+var HEADLINES = 'Top US-World headlines';
 
 var fetchAndNavigateTrendingNews = function(query){
   var params = {
