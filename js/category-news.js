@@ -1,18 +1,15 @@
 var API_URL = 'https://api.cognitive.microsoft.com/bing/v5.0/news/';
 var API_KEY = '4352fa573200405eae5ee08db67d4f35';
 
-$(document).ready( function() {
-    $('.logo h5').html(currentDate);
-    fetchAndNavigateTrendingNews(HEADLINES);
-    fetchAndRenderCategoryFeeds('US');
-    $('.search-button').click(onSearch);
-    $('.navigation').click(onNavigation);
-});
-
 var onNavigation = function(event) {
-    $('#list').empty();
-    var category =  event.target.id;
-    fetchAndRenderCategoryFeeds(category);
+    if(event.target.id!=''){
+      $('#list').empty();
+      var category =  event.target.id;
+      fetchAndRenderCategoryFeeds(category);
+    }else{
+
+    }
+    
 };
 
 var fetchAndRenderCategoryFeeds = function(category) {
