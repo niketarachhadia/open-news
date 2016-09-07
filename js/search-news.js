@@ -1,4 +1,4 @@
-var SEARCH_API_URL='https://api.cognitive.microsoft.com/bing/v5.0/news/search';
+	var SEARCH_API_URL='https://api.cognitive.microsoft.com/bing/v5.0/news/search';
 var onSearch = function(event){
 	$('#list').empty();
 	var searchTerm = $('#search').val();
