@@ -1,5 +1,5 @@
 var API_URL = 'https://api.cognitive.microsoft.com/bing/v5.0/news/';
-var API_KEY = '4352fa573200405eae5ee08db67d4f35';
+var API_KEY = '7f43de448a984f27a90cfa3fb5415d19';
 
 $(document).ready( function() {
     $('.logo h5').html(currentDate);
